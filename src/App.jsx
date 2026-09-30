@@ -1,6 +1,6 @@
 import Hero from './components/Hero.jsx'
 import Navbar from './components/Navbar.jsx'
-import Projects from './components/Projects.jsx'
+import ProjectSection from './components/ProjectSection.jsx'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Projects />
+        <ProjectSection />
       </main>
     </div>
   )
