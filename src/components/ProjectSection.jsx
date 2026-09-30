@@ -33,14 +33,14 @@ const projects = [
     status: 'MVP em desenvolvimento',
     badge: '2º lugar · Hackathon Smart Cities 2026',
     description: 'Plataforma criada para conectar estudantes, profissionais, empresas e oportunidades locais.',
-    technologies: ['React', 'JavaScript', 'Figma', 'Git'],
+    technologies: ['React', 'JavaScript', 'Git'],
     hasScreenshotPlaceholder: false,
   },
 ]
 
 function ProjectSection() {
   return (
-    <section id="projects" className="ds-section scroll-mt-20" aria-labelledby="projects-title">
+    <section id="projects" className="ds-section scroll-mt-20 pb-10 sm:pb-14 lg:pb-16" aria-labelledby="projects-title">
       <div className="ds-container">
         <header className="max-w-2xl">
           <p className="mb-5 text-xs font-semibold uppercase tracking-[0.18em]">Cases selecionados</p>
