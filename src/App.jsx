@@ -2,6 +2,7 @@ import About from './components/About.jsx'
 import Hero from './components/Hero.jsx'
 import Navbar from './components/Navbar.jsx'
 import ProjectSection from './components/ProjectSection.jsx'
+import Technologies from './components/Technologies.jsx'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <ProjectSection />
         <About />
+        <Technologies />
       </main>
     </div>
   )
